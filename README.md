@@ -29,8 +29,6 @@ All core logic lives under `src/langgraphagenticai/`, while `app.py` bootstraps 
 - ⚡ **GROQ LLM** – fast LLM inference backend  
   (configured in `src/langgraphagenticai/LLMS/groqllm.py`)
 - 🔍 **Tavily API** – AI news search
-- 📦 **Optional Libraries**  
-  FAISS (vector ops), Jinja2, httpx/aiohttp, etc.
 
 🔐 Environment variables (GROQ, Tavily API keys) are loaded from `.env`.  
 **Do not commit secrets.**
